@@ -1,1 +1,6 @@
-empty
+# Change Log
+# All notable changes to the PyCalc code will be documented in this file.
+# Please keep the format of log entries consistent.
+# Use labels: 'Changed', 'Added', 'Fixed', 'Removed'
+# Keep entries in ascending order by date
+
