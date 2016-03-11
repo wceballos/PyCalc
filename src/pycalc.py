@@ -17,9 +17,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 
-from app import Calculator
+from calculator import Calculator
 
 if __name__ == '__main__':
-    calc_app = Calculator(None) # Create app instance with no parent
+    calc_app = Calculator() # Create app instance with no parent
     calc_app.title('Calculator')
     calc_app.mainloop()
