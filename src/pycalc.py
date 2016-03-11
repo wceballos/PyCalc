@@ -1,5 +1,6 @@
 #!/usr/bin/python27
-"""
+"""This module is part of PyCalc.
+
 Copyright (C) 2016  Wilmin Ceballos <source@wilmin.org>
 
 This program is free software: you can redistribute it and/or modify
