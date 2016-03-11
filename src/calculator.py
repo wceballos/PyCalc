@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
 """This module is part of PyCalc. It contains the class 'Calculator' which is
 a template to create the calculator application.
 
@@ -18,6 +18,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
+__version__ = '0.9-beta.1'  # PEP 0008
 
 from __future__ import division
 import Tkinter
@@ -62,19 +63,19 @@ class Calculator(Tk):
     def layout(self):
         '''Initializes the calculator layout
         '''
-        master_grid = Frame(self) # Container of all contents
+        master_grid = Frame(self)  # Container of all contents
         master_grid.grid()
 
-        display_grid = Frame(master_grid) # Container of calculator display
+        display_grid = Frame(master_grid)  # Container of calculator display
         display_grid.grid(row=0, column=0)
 
-        buttons_grid = Frame(master_grid) # Container of all buttons
+        buttons_grid = Frame(master_grid)  # Container of all buttons
         buttons_grid.grid(row=1, column=0)
 
-        numbers_grid = Frame(buttons_grid) # Container of number buttons
+        numbers_grid = Frame(buttons_grid)  # Container of number buttons
         numbers_grid.grid(row=0, column=0)
 
-        operators_grid = Frame(buttons_grid) # Container of operator buttons
+        operators_grid = Frame(buttons_grid)  # Container of operator buttons
         operators_grid.grid(row=0, column=1)
 
         show_text = Label(display_grid, textvariable=self.screentext,
