@@ -4,3 +4,8 @@
 # Use labels: 'Changed', 'Added', 'Fixed', 'Removed'
 # Keep entries in ascending order by date
 
+### 2016-03-10 Wilmin Ceballos <source@wilmin.org>
+##Changed:
+-Renamed app.py to calculator.py
+-Renamed main.py to pycalc.py
+-Made python source files comply with PEP 0008 and PEP 484
