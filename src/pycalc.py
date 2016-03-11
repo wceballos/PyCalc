@@ -1,4 +1,4 @@
-#!/usr/bin/python27
+#!/usr/bin/python2
 """This module is part of PyCalc.
 
 Copyright (C) 2016  Wilmin Ceballos <source@wilmin.org>

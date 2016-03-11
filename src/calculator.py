@@ -1,4 +1,4 @@
-#!/usr/bin/python27
+#!/usr/bin/python2
 """This module is part of PyCalc. It contains the class 'Calculator' which is
 a template to create the calculator application.
 
