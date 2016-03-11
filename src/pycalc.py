@@ -17,9 +17,9 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-__version__ = '0.9-beta.1'  # PEP 0008
-
 from calculator import Calculator
+
+__version__ = '1.0'
 
 if __name__ == '__main__':
     calc_app = Calculator()  # Create app instance with no parent

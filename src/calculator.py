@@ -18,10 +18,10 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-__version__ = '0.9-beta.1'  # PEP 0008
-
 from __future__ import division
 import Tkinter
+
+__version__ = '1.0'
 
 Tk = Tkinter.Tk
 Frame = Tkinter.Frame
@@ -119,7 +119,7 @@ class Calculator(Tk):
                                command=self.click_equals)
                                
         button_period = Button(numbers_grid, text='.', height=2, width=2,
-                               command=self.click_period)
+                               command=lambda: self.click_math('.'))
                                
         button_del = Button(operators_grid, text='DEL', height=1, pady=7,
                             command=self.click_delete, width=2)
